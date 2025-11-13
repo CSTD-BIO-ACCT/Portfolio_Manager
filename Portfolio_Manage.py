@@ -314,7 +314,7 @@ st.latex(r"""
 #----- PART 1: PORTFOLIO METRICS -------
 st.header("Part 1: Portfolio Analytics")
 st.markdown("""
-In the Base Model, we assume Stock Price grows at 5.9%, with volatility 17.4%, annualised bond growth of 4.20% and volatility of 3.60%. These are from Blackrock's current market forecasts with a 10 year outlook in USD. To account for currency deviations and foreign exchange rates, we assume a beginning foreign exchange rate of 1.15 USD per EUR and assume appreciation of USD when the federal funds rate is higher than the ECB deposit rate with yearly volatility of 5%. 
+In the Base Model, we assume Stock Price grows at 8.0%, with volatility 16.8%, annualised bond growth of 4.40% and volatility of 4.80%. These are from leading Analyst's current market forecasts with a 10 year outlook in USD weighted alongside past performances of Treasuries and MSCI World ETF. To account for currency deviations and foreign exchange rates, we assume a beginning foreign exchange rate of 1.15 USD per EUR and assume appreciation of USD when the federal funds rate is higher than the ECB deposit rate with yearly volatility of 5%. Adjusting the Bow for the Bakery's realisation schedule increases volatility while increasing expected returns given a 20% IRR. 
 """)
 c1,c2,c3 = st.columns(3)
 c1.metric("Annual Return (EUR)", f"{res['annual_return_mean_eur']*100:.2f}%")
