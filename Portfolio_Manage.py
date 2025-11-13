@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 import numpy_financial as npf
 
-st.set_page_config(page_title="Case Study - Hasso Plattner Foundation (10y)", layout="wide")
+st.set_page_config(page_title="HPF (10y)", layout="wide")
 
 #PRIMARY INPUTS FOR SIMULATION
 st.sidebar.header("Primary Inputs")
